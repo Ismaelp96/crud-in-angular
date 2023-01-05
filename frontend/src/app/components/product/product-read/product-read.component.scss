@@ -1,0 +1,22 @@
+.edit {
+  margin-right: 10px;
+  i {
+    color: #d9cd26;
+    filter: grayscale(90%);
+    transition: filter 0.3s ease-in;
+    &:hover {
+      filter: grayscale(0%);
+    }
+  }
+}
+
+.delete {
+  i {
+    color: #e35e6b;
+    filter: grayscale(90%);
+    transition: filter 0.3s ease-in;
+    &:hover {
+      filter: grayscale(0%);
+    }
+  }
+}
